@@ -61,19 +61,48 @@ h1, h2, h3, h4, h5, h6 {
   background: #2f4bff;
   color: #fff;
 }
+.bg-orange{
+  background: linear-gradient(45deg, #f09027, #e8630a);
+  /* background: linear-gradient(45deg, #00a6e7, #2f4bff); */
+}
 
+.info{
+ padding: 15px 0;
+ color: #fff;
+}
+.info p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.visible{
+  display: block;
+}
+.oculto{
+  display: none;
+}
+
+.redes-social{
+  padding: 0;
+  margin: 0;
+}
+.redes-social li {
+  display: inline;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
+  /* background: linear-gradient(45deg, #2d7be0, #00a6e7); */
+  background: #fff;
   padding: 30px 0;
   height: 92px;
   position: fixed;
   left: 0;
-  top: 0;
+  top: -18;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  transition: .5;
 }
 
 #header #logo {
@@ -113,9 +142,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #2d7be0, #00a6e7);
+  /* background: linear-gradient(45deg, #2d7be0, #00a6e7); */
+  background: linear-gradient(45deg, #f0f2eb, #f7f7f7);
   padding: 20px 0;
   height: 72px;
+  top: 0;
   transition: all 0.5s;
 }
 
@@ -124,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 70vh;                                                                                                                                                                                                                   0vh;
   background: linear-gradient(45deg, rgba(56, 146, 219, 0.6), rgba(104, 144, 255, 0.418)), url("../img/intro-bg.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
@@ -141,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 60px;
   right: 0;
-  height: calc(50% - 60px);
+  height: calc(100% - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -269,6 +300,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu li {
   position: relative;
   white-space: nowrap;
+}
+
+.nav-menu li a{
+  color: #393e46;
+  font-weight: bold;
 }
 
 .nav-menu > li {
