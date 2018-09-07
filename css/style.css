@@ -1296,7 +1296,7 @@ button[type="submit"]:hover {
 }
 
 
-.box {
+.box-2 {
   background:#fff;
   transition:all 0.2s ease;
   border:2px dashed #dadada;
@@ -1308,24 +1308,24 @@ button[type="submit"]:hover {
   min-height:340px;
 }
 
-.box:hover {
+.box-2:hover {
   border:2px solid #525C7A;
 }
 
-.box span.box-title {
+.box-2 span.box-title {
     color: #fff;
     font-size: 24px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
-.box .box-content {
+.box-2 .box-content {
   padding: 16px;
   border-radius: 0 0 2px 2px;
   background-clip: padding-box;
   box-sizing: border-box;
 }
-.box .box-content p {
+.box-2 .box-content p {
   color:#515c66;
   text-transform:none;
 }
