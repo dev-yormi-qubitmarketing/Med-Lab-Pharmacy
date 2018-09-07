@@ -88,6 +88,16 @@ h1, h2, h3, h4, h5, h6 {
 .redes-social li {
   display: inline;
 }
+
+.mt{
+  margin-top: 30px;
+}
+.title-md{
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 22px;
+  color: #2d7be0;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -860,6 +870,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     text-align: center;
   }
+}
+
+/* Clients Section
+--------------------------------*/
+
+.lista li{
+  margin-left: 20px;
+}
+
+.lista li p{
+  color: #6a6e75;
 }
 
 /* Clients Section
