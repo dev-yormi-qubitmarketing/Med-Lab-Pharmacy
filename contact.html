@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html leng="es">
+<html lang="en">
 	<head>
-		<title>Med Lab Pharmacy</title>
-		<meta sharset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="icon" href="img/favicon.png">
-		<link rel="stylesheet" href="css/app.min.css">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<link rel="icon" href="img/favicon.png"/>
+		<title>Contact US</title>
+		<link rel="stylesheet" href="css/app.min.css"/>
 	</head>
 	<body>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-			<div class="container"><a class="navbar-brand" href="#"><img class="d-inline-block align-top" src="img/logo.png" width="180px" alt=""></a>
+			<div class="container"><a class="navbar-brand" href="#"><img class="d-inline-block align-top" src="img/logo.png" width="180px" alt=""/></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
@@ -27,64 +27,93 @@
 				</div>
 			</div>
 		</nav>
-		<div class="col-lg-12 parallax-banner" style="background-image: url('img/bg-home.jpg');">
+		<div class="col-lg-12 parallax-banner" style="background-image: url('img/bg-parallax-1.jpg');">
+			<div class="text-vcenter">
+				<h2 class="title">Contact US</h2>
+				<h3>how can help you ?</h3>
+			</div>
+		</div>
+		<section class="content-section">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 col-sm-6 mt-5">
-						<h2 class="title text-light">Med Lab Pharmacy</h2>
-						<p class="p-light">MedLab Pharmacy is a full-service community pharmacy located in sunny Tamarac, Florida.</p><a class="btn button-primary" href="about.html">About US</a>
+					<div class="col-lg-12">
+						<h2 class="title text-center">Contact <small>US</small></h2>
+						<p class="p-dark text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, cumque nisi! Molestias tempore hic at, quis excepturi voluptate quaerat atque.</p>
 					</div>
-					<div class="col-lg-4 col-sm-6">
-						<div class="formBox-2">
-							<div class="row">
-								<div class="col-lg-12">
-									<h3>Talk to Your Pharmacist</h3>
-								</div>
-							</div>
-							<form id="forContacFooter" action="./" method="POST" role="form">
+				</div>
+				<div class="row mt-5">
+					<div class="col-lg-4">
+						<div class="info">
+							<h3 class="title-sm">Med Lab Pharmacy, Inc.</h3>
+							<p class="p-dark">7300 W. McNab Road, Ste 112 Tamarac, FL 33321</p>
+							<ul class="list">
+								<li>
+									<p> <i class="icon icon-phone"></i>  Toll-Free: 800-556-1462</p>
+								</li>
+								<li>
+									<p> <i class="icon icon-phone"></i>  Tel: 954-400-0560</p>
+								</li>
+								<li>
+									<p> <i class="icon icon-phone"></i>  Fax: 954-606-5260</p>
+								</li>
+								<li>
+									<p> <i class="icon icon-mail"></i>  Email: madlabpharmacy@gmail.com</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="form-primary">
+							<form id="forNewPrescriptions" action="./" method="POST" role="form">
 								<div class="row">
-									<div class="col-lg-12">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="First Name" name="first_name">
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">First Name</div>
+											<input class="input" type="text" name="first_name"/>
 										</div>
 									</div>
-									<div class="col-lg-12">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Last Name" name="last_name">
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">Last Name</div>
+											<input class="input" type="text" name="last_name"/>
 										</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-lg-12">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Phone" name="email">
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">E-mail</div>
+											<input class="input" type="text" name="email"/>
 										</div>
 									</div>
-									<div class="col-lg-12">
-										<div class="form-group">
-											<input class="form-control" type="text" placeholder="Email" name="phone">
+									<div class="col-lg-6 col-md-6 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">Phone</div>
+											<input class="input" type="text" name="phone"/>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">Suject</div>
+											<input class="input" type="text" name="medication"/>
+										</div>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<div class="inputBox">
+											<div class="inputText">Message</div>
+											<textarea class="input" name="message"></textarea>
 										</div>
 									</div>
 								</div>
-								<input class="btn button-secondary" type="submit" value="Book Consultation">
+								<input class="btn button-primary" type="submit" value="Submit"/>
+								<div id="respuesta"> </div>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<section class="bg__gray pt se-mobil">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 mt-5">
-						<h2 class="title">Because<small>	We</small></h2>
-						<p class="p-dark text-justify">Here at Med Lab Pharmacy we stay up to date on the newest medications and medical studies, so that we can stay well informed to better serve our patients. Our pharmacy staff is highly trained and continues to learn how to best help our customers. We have experience in a wide variety of specialties so that we can meet the unique needs of every person that walks through our door.</p><a class="btn button-primary" href="#">Read More<i class="icon-arrow-right"></i></a>
-					</div>
-					<div class="col-lg-6"><img class="img img-fluid" src="img/bacause-we.png" alt=""></div>
-				</div>
-			</div>
 		</section>
-		<section class="content-section">
+		<section class="content-section bg__gray">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-lg-10 mx-auto">
@@ -136,12 +165,6 @@
 				</div>
 			</div>
 		</section>
-		<div class="col-lg-12 parallax" style="background-image: url('img/bg-parallax-2.jpg');">
-			<div class="text-vcenter">
-				<h2>Med Lab Pharmacy</h2>
-				<p class="p-light">We are a family oriented facility and can fill prescriptions for every member of your household including children, adults and seniors, from pediatrics to geriatrics and for all medical specialties.</p>
-			</div>
-		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mt-5">
@@ -149,7 +172,7 @@
 				</div>
 			</div>
 			<div class="row pt-5">
-				<div class="col-lg-4"><img class="img img-fluid" src="img/ok.png" alt=""></div>
+				<div class="col-lg-4"><img class="img img-fluid" src="img/ok.png" alt=""/></div>
 				<div class="col-lg-8">
 					<div class="card-t mt-5 mb-5">
 						<div class="carousel slide" id="carouselExampleControls" data-ride="carousel" data-interval="100000">
@@ -157,7 +180,7 @@
 								<div class="carousel-item active">
 									<div class="carousel-caption">
 										<div class="row">
-											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-1.jpg" alt=""></div>
+											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-1.jpg" alt=""/></div>
 											<div class="col-sm-9">
 												<h3>Personalized</h3><small>They offer customized solutions for the needs of each client.</small><small class="smallest"> - Marilie Swift</small>
 											</div>
@@ -167,7 +190,7 @@
 								<div class="carousel-item">
 									<div class="carousel-caption">
 										<div class="row">
-											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-2.jpg" alt=""></div>
+											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-2.jpg" alt=""/></div>
 											<div class="col-sm-9">
 												<h3>Counseling</h3><small>New Heights customer service offering personal advice for all medication needs.</small><small class="smallest"> - Noemy Gibson</small>
 											</div>
@@ -177,7 +200,7 @@
 								<div class="carousel-item">
 									<div class="carousel-caption">
 										<div class="row">
-											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-3.jpg" alt=""></div>
+											<div class="col-sm-3"><img class="rounded-circle img-fluid" src="img/testimonial-3.jpg" alt=""/></div>
 											<div class="col-sm-9">
 												<h3>Community</h3><small>They are dedicated to serving the community and committed to providing a unique experience.</small><small class="smallest"> - Ashtyn Spinka</small>
 											</div>
@@ -191,35 +214,6 @@
 				</div>
 			</div>
 		</div>
-		<section class="bg__gray pt-5 se-mobil">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<h2 class="title text-center mb-5">Contact <small>Us</small></h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4"><img class="img img-fluid" src="img/doctor-contact.png" alt=""></div>
-					<div class="col-lg-4">
-						<form action="">
-							<div class="form-group">
-								<input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-							</div>
-							<div class="form-group">
-								<input class="form-control" type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone">
-							</div>
-							<button class="btn button-secondary" type="submit">Submit</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="callout" style="background-image: url('img/map.jpg');">
-			<div class="container text-center"></div>
-		</section>
 		<footer class="footer">
 			<div class="container">
 				<div class="row">
